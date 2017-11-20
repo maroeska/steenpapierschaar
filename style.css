@@ -1,0 +1,90 @@
+/* belangrijke onderdelen */
+
+html {
+	background-color: black;
+}
+
+body {
+	text-align: left;
+	font-family: "Quicksand", sans-serif;
+	color: white;
+}
+
+header {
+	font-size: 1em;
+	float: right;
+	text-align: left;
+	margin-right: 5em;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: left;
+	margin-left: 2em;
+}
+
+h2 {
+	margin-left: 4em;
+}
+
+ul {
+	margin-top: 8em;
+    margin-left: 2em;
+	list-style: none;
+	text-align: center;
+    position: fixed;;
+}
+
+li {
+	display: inline;
+}
+
+img {
+	height: 30em;
+}
+
+img:hover {
+	transform: scale(1.1);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+/* Belangrijke id's */
+
+#resultaat {
+	display: block;
+	margin-left: 6em;
+}
+
+#resultaat > h2 {
+    margin-left: 0;
+}
+
+.rood {
+    color: #e8343d;
+}
+
+.oranje {
+    color: #eaa332;
+}
+
+.groen {
+    color: #45e834;
+}
+
+/* button */
+
+main > p {
+	display: none;
+	color: black;
+	background-color: yellow;
+	position: relative;
+	margin: 0 auto;
+	width: 10em;
+	text-align: center;
+	padding: 0.5em;
+	font-size: 2em;
+	cursor: pointer;
+	margin-left: 3em;
+	margin-bottom: 1em;
+}
